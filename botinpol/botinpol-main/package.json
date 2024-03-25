@@ -1,0 +1,24 @@
+{
+  "name": "inpol",
+  "dependencies": {
+    "esbuild": "^0.20.1",
+    "pkg": "^5.8.1",
+    "puppeteer": "^22.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8"
+  },
+  "bin": "workers.js",
+  "scripts": {
+    "build": "esbuild run.js --bundle --platform=node --outfile=inpol-out.js"
+  },
+  "pkg": {
+    "assets": [
+      "run.js",
+      "functions.js"
+    ],
+    "output": "dist"
+  },
+  "overrides": {
+    "clone-deep": "^4.0.1"
+  }
+}

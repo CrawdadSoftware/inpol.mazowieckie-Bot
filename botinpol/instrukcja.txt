@@ -1,0 +1,45 @@
+Numer do informatyka zajmującego się botem: 792 030 568 pxsoftpolska@gmail.com
+Numer do informatyka zajmującego się botem: 792 030 568 pxsoftpolska@gmail.com
+
+Ta osoba będzie zajmować się rozbudową bota, przekazałem mu całe instrukcje
+
+Co do instalacji wszystko jest w pliku README ale słowem wyjaśnienia:
+
+Jak uruchomić swojego bota:
+1. Pobierz i zainstaluj Node.js
+Nasz bot działa na platformie Node.js, więc musisz go mieć zainstalowanego na swoim komputerze. Wejdź na stronę https://nodejs.org/en i pobierz najnowszą wersję dla swojego systemu operacyjnego (Windows, MacOS, Linux). Uruchom pobrany plik i postępuj zgodnie z instrukcjami instalatora.
+
+2. Przygotuj pliki bota
+Skopiuj folder zawierający bota (wszystkie pliki, które otrzymałeś, w tym inpol-bot.js i config.js) do wybranego miejsca na swoim komputerze.
+
+3. Otwórz terminal lub wiersz poleceń
+Na Windows: Wyszukaj cmd w menu start i otwórz Wiersz poleceń.
+Na MacOS lub Linux: Otwórz Terminal.
+4. Przejdź do folderu z botem
+W terminalu/wierszu poleceń musisz przejść do folderu, gdzie znajdują się pliki bota. Jeśli na przykład folder z botem znajduje się na Pulpicie, wpisz:
+
+Na Windows: cd Desktop\nazwa_folderu
+Na MacOS/Linux: cd Desktop/nazwa_folderu
+Zastąp nazwa_folderu nazwą folderu, w którym znajduje się bot.
+
+5. Zainstaluj wymagane pakiety
+Wpisz w terminalu/wierszu poleceń komendę:
+
+Copy code
+npm install
+To zainstaluje wszystkie niezbędne zależności wymagane do działania bota. Jeśli w folderze z botem nie ma pliku package.json, prawdopodobnie ten krok możesz pominąć.
+
+6. Skonfiguruj bota
+Otwórz plik config.js w notatniku lub innym edytorze tekstu. Znajdziesz tam miejsce na wpisanie captchaApiToken i caseNumber. Uzupełnij te pola zgodnie z wymaganiami:
+
+captchaApiToken: Wpisz tutaj swój token API uzyskany z serwisu 2captcha.
+caseNumber: Wpisz numer sprawy, który znajdziesz w adresie URL po kliknięciu na dwie kreski.
+7. Uruchom bota
+Po skonfigurowaniu wszystkiego, wróć do terminala/wiersza poleceń i wpisz:
+
+Copy code
+node inpol-bot.js
+To uruchomi twojego bota.
+
+Gotowe!
+Twój bot powinien teraz działać. Jeśli napotkasz jakiekolwiek problemy, sprawdź, czy wszystkie kroki zostały wykonane prawidłowo, lub skontaktuj się z osobą, która tworzyła bota czyli pod numerem 792 030 568, on wytłumaczy wszystko i razem pracujemy nad ulepszoną wersją oprogramowania.

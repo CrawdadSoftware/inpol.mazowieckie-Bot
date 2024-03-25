@@ -1,0 +1,7 @@
+Uruchomienie
+node inpol-bot.js
+
+
+Plik konfiguracyjny config.js
+captchaApiToken - api token z 2capcg
+caseNumber - numer sprawy, po kliknieciu dwoch kresek ostatnia czesc adresu url
