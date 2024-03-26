@@ -1,10 +1,3 @@
-Numer do informatyka zajmującego się botem: 792 030 568 pxsoftpolska@gmail.com
-Numer do informatyka zajmującego się botem: 792 030 568 pxsoftpolska@gmail.com
-
-Ta osoba będzie zajmować się rozbudową bota, przekazałem mu całe instrukcje
-
-Co do instalacji wszystko jest w pliku README ale słowem wyjaśnienia:
-
 Jak uruchomić swojego bota:
 1. Pobierz i zainstaluj Node.js
 Nasz bot działa na platformie Node.js, więc musisz go mieć zainstalowanego na swoim komputerze. Wejdź na stronę https://nodejs.org/en i pobierz najnowszą wersję dla swojego systemu operacyjnego (Windows, MacOS, Linux). Uruchom pobrany plik i postępuj zgodnie z instrukcjami instalatora.
@@ -40,6 +33,3 @@ Po skonfigurowaniu wszystkiego, wróć do terminala/wiersza poleceń i wpisz:
 Copy code
 node inpol-bot.js
 To uruchomi twojego bota.
-
-Gotowe!
-Twój bot powinien teraz działać. Jeśli napotkasz jakiekolwiek problemy, sprawdź, czy wszystkie kroki zostały wykonane prawidłowo, lub skontaktuj się z osobą, która tworzyła bota czyli pod numerem 792 030 568, on wytłumaczy wszystko i razem pracujemy nad ulepszoną wersją oprogramowania.
